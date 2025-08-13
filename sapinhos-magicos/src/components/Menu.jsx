@@ -3,7 +3,7 @@ import shop from '../assets/shopping-basket.png'
 
 export default function Menu({}){
     return(
-        <header className="fixed w-full h-1/12 bg-(--my-purple)">
+        <header className="fixed w-full h-1/12 z-40 bg-(--my-purple)">
             <Link to="/Carrinho" className="space-x-8">
                 <img
                     src={shop}
